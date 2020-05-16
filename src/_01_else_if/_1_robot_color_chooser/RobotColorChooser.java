@@ -6,6 +6,7 @@ import javax.swing.JOptionPane;
 import org.jointheleague.graphical.robot.Robot;
 
 import java.awt.Color;
+import java.util.Random;
 
 public class RobotColorChooser {
 	public static void main(String[] args) {
@@ -36,5 +37,7 @@ String color=		JOptionPane.showInputDialog("what color would you like the robot 
 
 
 
-	}
 }
+
+		
+	} }
