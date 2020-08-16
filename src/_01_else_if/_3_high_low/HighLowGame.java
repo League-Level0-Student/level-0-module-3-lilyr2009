@@ -25,10 +25,12 @@ String responce=JOptionPane.showInputDialog(null, "can I have a guess?");
 			// }
 		if (i==random) {
 			
-		}
+		
 				// 6. Win
 		JOptionPane.showMessageDialog(null, "you won!");
 				// 12. Use "System.exit(0);" to quit the game if the user guessed the right answer.
+		System.exit(0);	
+		}
 			// 7. if the guess is high
 				// 8. Tell them it's too high
 			// 9. if the guess is low
