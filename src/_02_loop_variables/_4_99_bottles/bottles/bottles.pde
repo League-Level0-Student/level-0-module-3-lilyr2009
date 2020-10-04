@@ -1,5 +1,5 @@
 
 
-for(int num=98;num<0;num++) {
-  println("hello "+num+"!");
+for(int num=99;num>=0;num--) {
+  println(num+ "bottles of beer on the wall, "+num+" bottles of beer, take one down, pass it around, "+(num-1)+" bottles of beer on the wall");
 }
