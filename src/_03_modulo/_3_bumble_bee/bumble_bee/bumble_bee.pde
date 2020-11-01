@@ -15,7 +15,8 @@ void draw() {
 (see the image on the recipe, it's a diagonal line of circles)
 Use modulo to make the colors alternate between yellow and black
 */
-for(int num=100; num>=0; num=80){
+for(int num=100; num>=0; num-=50){
+  ellipse(num,num, 100,100);
 
 }
 /*
