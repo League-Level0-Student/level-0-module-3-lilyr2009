@@ -24,10 +24,41 @@ import javax.swing.JOptionPane;
 
 public class FizzBuzz {
 public static void main(String[] args) {
-	for(int num=10; num<2;num+=1) {
-	JOptionPane.showMessageDialog(null,"fizz");	
-		
+	for(int num=1; num<21;num+=1) {
+System.out.println(num);
+
+else {
+    System.out.println("number is odd");
 }
-	}
+	
+
+if (num % 3 == 0) {	
+	System.out.println("fizz");
+	else {
+	    System.out.println("number is odd");
+	
 }
+	
+	
+    if (num % 5 == 0) {
+    	System.out.println("buzz");
+    	else {
+    	    System.out.println("number is odd");
+    	
+    
+    }	
+    	
+    if (num %3  == 0 && num %5  == 0) {
+        System.out.println("fizzbuzz");
+        else {
+    	    System.out.println("number is odd");
+    	
+ 
+    }
+}
+}
+}
+	
+
+
 
