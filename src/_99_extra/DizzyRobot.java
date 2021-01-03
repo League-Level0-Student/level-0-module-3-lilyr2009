@@ -16,8 +16,8 @@ public class DizzyRobot {
 		// 2. Ask the user how dizzy you want the robot from 1-10, then spin that number
 		// of times.
 		String robot = JOptionPane.showInputDialog("how dizzy do you want the robot from 1-10?");
-		int num = Integer.parseInt(input);
-		dance(robot);
+		int num = Integer.parseInt(robot);
+		dance(num);
 	}
 
 	/***************** Use this method, DON'T CHANGE THE CODE BELOW **************/
